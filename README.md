@@ -1,5 +1,5 @@
-# Sublime-Text 3 Configuration
-This is my Sublime-Text 3 configuration. Feel free to judge or use it.
+# Sublime Text 3 Configuration
+This is my Sublime Text 3 configuration. Feel free to judge or use it.
 
 [Link to JSON-File](https://github.com/Werninator/sublime-config/blob/master/config.json)
 
