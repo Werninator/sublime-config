@@ -1,34 +1,37 @@
 {
-    "bold_folder_labels": true,
-    "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-    "draw_minimap_border": true,
-    "draw_white_space": "all",
-    "font_face": "SourceCodePro-Regular",
-    "font_size": 11,
-    "highlight_line": true,
-    "highlight_modified_tabs": true,
-    "ignored_packages":
-    [
-        "ignore_vcs_packages",
-        "Vintage"
-    ],
-    "index_files": false,
-    "itg_sidebar_tree_xsmall": true,
-    "itg_small_tabs": true,
-    "line_padding_bottom": 3,
-    "line_padding_top": 3,
-    "open_files_in_new_window": true,
-    "overlay_scroll_bars": "disabled",
-    "rulers":
-    [
-        120,
-        168
-    ],
-    "scroll_past_end": true,
-    "show_encoding": true,
-    "tab_completion": false,
-    "theme": "itg.flat.dark.orange.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": false,
-    "word_wrap": false
+	"bold_folder_labels": true,
+	"caret_extra_width": 5,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"font_face": "SourceCodePro-Regular",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"ignore_vcs_packages",
+		"Vintage"
+	],
+	"index_files": false,
+	"itg_sidebar_tree_xsmall": true,
+	"itg_small_tabs": true,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"open_files_in_new_window": true,
+	"overlay_scroll_bars": "disabled",
+	"rulers":
+	[
+		120,
+		168
+	],
+	"scroll_past_end": true,
+	"show_encoding": true,
+	"tab_completion": false,
+	"theme": "itg.flat.dark.orange.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"wide_caret": true,
+	"word_wrap": false
 }
