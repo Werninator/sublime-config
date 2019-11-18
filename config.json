@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"caret_extra_width": 5,
+	"block_caret": true,
 	"caret_style": "solid",
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"draw_minimap_border": true,
@@ -32,7 +32,6 @@
 	"theme": "itg.flat.dark.orange.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
-	"wide_caret": true,
 	"word_wrap": false,
 	"draw_centered": true,
 }
