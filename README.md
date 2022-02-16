@@ -9,5 +9,5 @@ My Sublime Text 4 configuration. A product of over 8 years of use
 
 ## Required visual Assets
 
-* Font: Liberation Mono (can be downloaded at many sites out there for free)
+* Font: [Fira Code](https://github.com/tonsky/FiraCode)
 * Color-Scheme: [Spacegray](http://kkga.github.io/spacegray/)
