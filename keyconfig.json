@@ -1,4 +1,5 @@
 [
+    // movement
     { "keys": ["ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false } },
     { "keys": ["ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true } },
     { "keys": ["ctrl+shift+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true, } },
@@ -8,4 +9,7 @@
 
     // references https://gist.github.com/Werninator/901fe95a1486687d56480f965126d5ca
     { "keys": ["f1"], "command": "open_help" },
+
+    // reindent
+    { "keys": ["ctrl+shift+r"], "command": "reindent" },
 ]
