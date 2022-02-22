@@ -1,14 +1,114 @@
 [
     // movement
-    { "keys": ["ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false } },
-    { "keys": ["ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true } },
-    { "keys": ["ctrl+shift+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true, } },
-    { "keys": ["ctrl+shift+down"], "command": "move", "args": { "by": "stops", "empty_line": true, "forward": true, "extend": true } },
+    {
+        "keys": ["ctrl+up"],
+        "command": "multicommand",
+        "args": {
+            "commands": [
+                {
+                    "command": "move",
+                    "args": {
+                        "by": "stops",
+                        "empty_line": true,
+                        "forward": false
+                    }
+                },
+                {
+                    "command": "show_at_center"
+                }
+            ]
+        }
+    },
+    {
+        "keys": ["ctrl+down"],
+        "command": "multicommand",
+        "args": {
+            "commands": [
+                {
+                    "command": "move",
+                    "args": {
+                        "by": "stops",
+                        "empty_line": true,
+                        "forward": true
+                    }
+                },
+                {
+                    "command": "show_at_center"
+                }
+            ]
+        }
+    },
+    {
+        "keys": ["ctrl+shift+up"],
+        "command": "multicommand",
+        "args": {
+            "commands": [
+                {
+                    "command": "move",
+                    "args": {
+                        "by": "stops",
+                        "empty_line": true,
+                        "forward": false,
+                        "extend": true
+                    }
+                },
+                {
+                    "command": "show_at_center"
+                }
+            ]
+        }
+    },
+    {
+        "keys": ["ctrl+shift+down"],
+        "command": "multicommand",
+        "args": {
+            "commands": [
+                {
+                    "command": "move",
+                    "args": {
+                        "by": "stops",
+                        "empty_line": true,
+                        "forward": true,
+                        "extend": true
+                    }
+                },
+                {
+                    "command": "show_at_center"
+                }
+            ]
+        }
+    },
+
+    { "keys": ["up"], "command": "multicommand", "args": {
+        "commands": [
+            { "command": "move", "args": {"by": "lines", "forward": false } },
+            { "command": "show_at_center" },
+        ],
+    } },
+    { "keys": ["down"], "command": "multicommand", "args": {
+        "commands": [
+            { "command": "move", "args": {"by": "lines", "forward": true } },
+            { "command": "show_at_center" },
+        ],
+    } },
+    { "keys": ["shift+up"], "command": "multicommand", "args": {
+        "commands": [
+            { "command": "move", "args": {"by": "lines", "forward": false, "extend": true } },
+            { "command": "show_at_center" },
+        ],
+    } },
+    { "keys": ["shift+down"], "command": "multicommand", "args": {
+        "commands": [
+            { "command": "move", "args": {"by": "lines", "forward": true, "extend": true } },
+            { "command": "show_at_center" },
+        ],
+    } },
     { "keys": ["ctrl+alt+up"], "command": "swap_line_up" },
     { "keys": ["ctrl+alt+down"], "command": "swap_line_down" },
     { "keys": ["alt+shift+up"], "command": "swap_line_up" },
     { "keys": ["alt+shift+down"], "command": "swap_line_down" },
     { "keys": ["ctrl+e"], "command": "show_at_center" },
+    { "keys": ["ctrl+k", "ctrl+c"], "command": "toggle_comment", "args": { "block": false } },
 
     // references https://gist.github.com/Werninator/901fe95a1486687d56480f965126d5ca
     { "keys": ["f1"], "command": "open_help" },
