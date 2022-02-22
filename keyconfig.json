@@ -6,10 +6,17 @@
     { "keys": ["ctrl+shift+down"], "command": "move", "args": { "by": "stops", "empty_line": true, "forward": true, "extend": true } },
     { "keys": ["ctrl+alt+up"], "command": "swap_line_up" },
     { "keys": ["ctrl+alt+down"], "command": "swap_line_down" },
+    { "keys": ["alt+shift+up"], "command": "swap_line_up" },
+    { "keys": ["alt+shift+down"], "command": "swap_line_down" },
+    { "keys": ["ctrl+e"], "command": "show_at_center" },
 
     // references https://gist.github.com/Werninator/901fe95a1486687d56480f965126d5ca
     { "keys": ["f1"], "command": "open_help" },
-
-    // reindent
     { "keys": ["ctrl+shift+r"], "command": "reindent" },
+
+    // override key combinations to empty commands so I don't accidentally trigger them
+    { "keys": ["ctrl+shift+["], "command": "" },
+    { "keys": ["ctrl+shift+]"], "command": "" },
+    { "keys": ["ctrl+t"], "command": "" },
+    { "keys": ["ctrl+j"], "command": "" },
 ]
