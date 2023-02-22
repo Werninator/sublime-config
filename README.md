@@ -13,7 +13,7 @@ My Sublime Text 4 configuration. A product of over 8 years of use.
 ## Required visual Assets
 
 * Font: [Source Code Pro by Adobe](https://github.com/adobe-fonts/source-code-pro)
-* Color-Scheme: [Spacegray](http://kkga.github.io/spacegray/)
+* Color-Scheme: [Spacegray](https://sublimetext.github.io/Spacegray/)
 
 ## Plugins
 
