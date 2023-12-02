@@ -22,3 +22,4 @@ My Sublime Text 4 configuration. A product of over 8 years of use.
 * [Inc-Dec-Value](https://packagecontrol.io/packages/Inc-Dec-Value) incrementing numbers, setting uppercase/lowercase for words
 * [SidebarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements) to remove unwanted files from project scope
 * [SnippetMaker](https://packagecontrol.io/packages/SnippetMaker) to create/edit/delete snippets, for those dull repetitive programming tasks
+* FileDiffs
